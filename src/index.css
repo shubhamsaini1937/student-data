@@ -1,0 +1,29 @@
+* {
+  letter-spacing: 0.02rem;
+}
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: #f8f9fa;
+}
+
+::placeholder {
+  font-size: 0.959rem;
+}
+.navBtnStyle:focus {
+  box-shadow: none;
+}
+.btn-danger {
+  background-color: tomato;
+}
+.btn-danger:hover {
+  background-color: rgb(253, 78, 47);
+}
+.btn-outline-danger {
+  color: tomato;
+}
+.btn-outline-danger:hover {
+  background-color: tomato;
+}
+.text-danger {
+  color: tomato !important;
+}
